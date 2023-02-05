@@ -1,0 +1,395 @@
+body {
+
+    background-image: url(bg.jpg);
+    
+    background-color: lightblue;
+    
+    background-size: cover;
+    
+    font-family: Arial, sans-serif;
+    
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+    background-attachment: fixed;
+    
+    }
+    
+    #firstNames {
+    
+    color: red;
+    
+    font-size: 14px;
+    
+    margin-top: 10px;
+    
+    }
+    
+    #lastNames, #dobs {
+    
+    color: red;
+    
+    font-size: 14px;
+    
+    margin-top: 10px;
+    
+    }
+    
+    .form-container {
+    
+    height: 1450px;
+    
+    width: 700px;
+    
+    margin: 50px auto;
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    background-color: rgba(193 193 193/ 0%);
+    
+    backdrop-filter: blur(100px);
+    
+    padding: 20px;
+    
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px #000;
+    
+    }
+    
+    .form-left {
+    
+    float: left;
+    
+    /* display:flex; */
+    
+    height: 430px;
+    
+    text-align: center;
+    
+    padding: 20px;
+    
+    }
+    
+    .form-right {
+    
+    /* width: 300px;
+    
+    padding: 20px; */
+    
+    float: right;
+    
+    }
+    
+    #preview {
+    
+    width: 200px;
+    
+    height: 200px;
+    
+    border-radius: 90px;
+    
+    margin: 10px;
+    
+    display: block;
+    
+    }
+    
+    h1 {
+    
+    height: 50px;
+    
+    width: 700px;
+    
+    margin: 0;
+    
+    text-align: center;
+    
+    font-size: 40px;
+    
+    font-weight: 600;
+    
+    background-image: linear-gradient(to left, #9988c9, #1a0232);
+    
+    color: transparent;
+    
+    -webkit-background-clip: text;
+    
+    }
+    
+    label {
+    
+    display: block;
+    
+    margin-bottom: 10px;
+    
+    }
+    
+    #dob {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #caste {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #gender {
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #handicap {
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #country {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #state {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #city {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #pincode {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #education {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #hsc {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    #stream {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    input[type="text"], input[type="date"]
+    
+    select {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    input[type="radio"] {
+    
+    margin-right: 10px;
+    
+    }
+    
+    button[type="submit"], button[type="reset"] {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    background-color: #4CAF50;
+    
+    color: #fff;
+    
+    border: none;
+    
+    border-radius: 5px;
+    
+    cursor: pointer;
+    
+    margin-top: 20px;
+    
+    }
+    
+    .form-submit-button {
+    
+    margin-top: 30px;
+    
+    margin-right: 30px;
+    
+    background: #0d4fa5c2;
+    
+    color: white;
+    
+    border-style: outset;
+    
+    border-color: #0066A2;
+    
+    height: 50px;
+    
+    width: 100px;
+    
+    font: bold15px arial, sans-serif;
+    
+    text-shadow: none;
+    
+    }
+    
+    .form-cancel-button {
+    
+    background: #8d1818c2;;
+    
+    color: white;
+    
+    border-style: outset;
+    
+    border-color: #a20000;
+    
+    height: 50px;
+    
+    width: 100px;
+    
+    font: bold15px arial, sans-serif;
+    
+    text-shadow: none;
+    
+    }
+    
+    button[type="reset"] {
+    
+    background-color: #f44336;
+    
+    }
